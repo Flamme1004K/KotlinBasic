@@ -1,0 +1,4 @@
+package basic
+
+class BasicType {
+}
