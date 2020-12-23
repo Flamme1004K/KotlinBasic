@@ -31,5 +31,4 @@ fun main() {
     println(item1.product=== item2.product)
     // 두 OrderItem 인스턴스에 있는 Product는 같은 객체다.
 
-
 }
