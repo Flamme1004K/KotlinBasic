@@ -10,4 +10,9 @@ package kotlinCookBook
 모든 객체 지향 언어
 
 객체 동일과 객체 동등 개념이 있다.
+
+코틀린의 == 연산자는 자동으로 equals 함수를 호출한다.
+
+equals 문법에는 equals 구현의 반사성, 대칭성, 추이성, 일관성이 있어야 null도 적절하게 처리할 수 있게 된다.
+hash code 문법에서 equals 함수가 두 객체를 동등하다고 판단하면 두 객체의 hashcode도 같아야 한다.
  */
