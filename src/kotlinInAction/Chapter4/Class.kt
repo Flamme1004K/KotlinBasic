@@ -11,6 +11,11 @@ package kotlinInAction.Chapter4
 
 다만 인터페이스에는 아무런 상태(필드)도 들어갈 수 없다.
 
+final : 오버라이드 할 수 없음.
+open : 오버라이드 할 수 있음.
+abstract : 반드시 오버라이드 해야함.
+override : 상위 클래스나 상위 인스턴스의 멤버를 오버라이드 하는 중
+
  */
 
 interface Clickable {
